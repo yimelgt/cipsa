@@ -145,8 +145,9 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color:red);
+  background-position: left top;
+  background-image: url("/assets/img/home.png");
+  background-repeat: no-repeat;
 }
 
 h1, h2, h3 {
@@ -327,6 +328,7 @@ input {
   height: 100vh;
   object-fit: cover;
   object-position: 83%;
+  background: cover;
 }
 
 .home__container {
