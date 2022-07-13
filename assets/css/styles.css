@@ -148,6 +148,7 @@ body {
   background-position: left top;
   background-image: url("/assets/img/home.png");
   background-repeat: no-repeat;
+  border: none;
 }
 
 h1, h2, h3 {
@@ -328,7 +329,6 @@ input {
   height: 100vh;
   object-fit: cover;
   object-position: 83%;
-  background: cover;
 }
 
 .home__container {
@@ -369,7 +369,6 @@ input {
 }
 
 .home__info {
-  background-color: var(--first-color);
   display: flex;
   padding: 1.5rem 1rem;
   align-items: center;
